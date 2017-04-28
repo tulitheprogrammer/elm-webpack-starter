@@ -11,5 +11,5 @@ import String
 hello : Int -> Html a
 hello model =
     div
-        [ class "h2" ]
+        [ class "h12" ]
         [ text ("Hello, Elm" ++ ("!" |> String.repeat model)) ]
